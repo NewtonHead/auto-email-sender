@@ -6,8 +6,8 @@ sender_email = "" #Enter your email
 rec_email = "" #Receiver email
 password = '' #Email password (or google app passwd"
 msg = EmailMessage()
-msg.set_content('') #Email body
-msg['Subject'] = f'' #Change subject
+msg.set_content('Body') #Email body
+msg['Subject'] = f'Subject' #Change subject
 msg['From'] = sender_email 
 msg['To'] = rec_email
 
